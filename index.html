@@ -7,7 +7,6 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
 
@@ -22,7 +21,7 @@
   <ul class="menu" id="menu">
 
     	<li class="logo"><a href="#"><img src="img/logo.png" class="logo"></a></li>
-   		<li class="button"><input type="text" name="search" placeholder="Search.."></li>
+   
   
     	<li class="toggle" id="burger"><a href="#"><i class="fas fa-bars"></i></a></li>
 
@@ -45,50 +44,26 @@
 
 	<div class="flex-container">
 
-		<h1>Heel Holland Bakt</h1>
-
-		<article class="flex-item-2">
+<!--
+		<div class="flex-item-2">
 			<h1>Ben jij de nieuwe Beste thuisbakker?</h1>
+			<span>De zoektocht naar de meest getalenteerde thuisbakker.</span>
 			<p>
 				Bakkermakkers opgelet! Het moment is daar, schrijf je nu in voor een nieuw seizoen Heel Holland Bakt.
+				Als bakfan zit je weer gebakken! Zet 'm in je agenda: vanaf zondag 15 december zie je kersverse bakkers aan de bak gaan op NPO 1. Ben jij een echte bakker? Meld je nu aan voor onze competitie!
 			</p>
 			<button>
 				Aanmelden Workshop
 			</button>
-		</article>
-
-
+		</div>
+-->
 
 
 	</div>
 
 </section>
 
-<section id="uitnodiging" class="flex-container">
 
-<article class="flex-item-2">
-	<h2>De HHB Competitie!</h2>
-	<span>De zoektocht naar de meest getalenteerde thuisbakker.</span>
-
-	<p class="texttt">
-		Als bakfan zit je weer gebakken! Zet 'm in je agenda: vanaf zondag 15 december zie je kersverse bakkers aan de bak gaan op NPO 1. Ben jij een echte bakker? Meld je nu aan voor onze competitie!
-</p>
-
-	<button>Bekijk Recept</button>
-
-</article>
-
-	<div class="flex-item-2">
-
-	<img src="img/cook.png" class="img-responsive img-cook">
-</div>
-
-</article>
-
-
-
-
-</section>
 
 
 
@@ -264,10 +239,56 @@
 		</article>
 
 
+		<button>Meer</button>
 
 
 	</div>
 	
+</section>
+
+<section id="advertentie-2" class="flex-container-fluid">
+	<div class="flex-container">
+		<h2>De HHB Competitie<br><span></span></h2>
+		<h3>Ze Zijn er weer! De hhb competitie!</h3>
+	</div>
+</section>
+
+<section id="contact" class="flex-container">
+
+	<div class="flex-item-2 banner">
+		<h2>Vragen aan MAX</h2>
+
+		<p>
+		Heeft u een vraag of opmerking over een uitzending van MAX dan vernemen wij deze graag via het contactformulier onderaan deze pagina. Geef duidelijk aan om welk programma het gaat en wanneer deze uitzending heeft plaatsgevonden.
+		</p>
+
+	</div>
+
+	<div class="flex-item-2">
+
+		 <form action="/action_page.php">
+    		<label for="voornaam">Voornaam</label>
+    		<input type="text" id="voornaam" name="voornaam" placeholder="Voornaam">
+
+    		<label for="achternaam">Achternaam</label>
+    		<input type="text" id="achternaam" name="achternaam" placeholder="Achternaam">
+
+    		<label for="country">Uitzending</label>
+    		<select id="country" name="country">
+    			<option value="hhb">Heel Holland Bakt</option>
+      			<option value="hhb2">Heel Holland Bakt 2</option>
+      			<option value="hhb3">Heel Holland Bakt 3</option>
+    		</select>
+
+    		<label for="onderwerp">Onderwerp</label>
+    		<textarea id="onderwerp" name="onderwerp" placeholder="Onderwerp" style="height:200px"></textarea>
+
+    		<input type="submit" value="Versturen">
+  </form>
+		
+	</div>
+	
+
 </section>
 
 
@@ -303,6 +324,9 @@
 		</div>
 
 </div>
+
+
+
 
 
 
