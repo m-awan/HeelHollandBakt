@@ -161,7 +161,16 @@ a:hover {
     vertical-align: middle;
 }
 
-#advertentie h2,
+#advertentie h2{
+     font-weight: lighter;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    text-transform: uppercase;
+    font-family: 'PT Serif', serif;
+    color: #fff;
+    text-shadow: 5px 5px #000000;
+}
 #advertentie-2 h2 {
     font-weight: lighter;
     text-align: center;
