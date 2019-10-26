@@ -5,10 +5,33 @@ document.getElementById("burger").addEventListener("click", menuAnimatie);
 
  var element = document.getElementById("navigation");
 element.classList.toggle("active");
-link.style.animation = `navLinksFade 0.5s ease forwards ${index / 7 + 0.3}s`
 
-
-
-
- 
  }
+
+window.onscroll = () => {
+  const nav = document.querySelector('nav');
+  if(this.scrollY <= 10) nav.className = '' ; else nav.className = 'scroll';
+};
+
+
+$('#taart').change(function(){
+    if($(this).is(":checked")) {
+        $('.taart').removeClass('hidden');
+    } else {
+        $('.taart').addClass('hidden');
+    }
+});
+
+$('#cake').change(function(){
+    if($(this).is(":checked")) {
+        $('.cake').removeClass('hidden');
+    } else {
+        $('.cake').addClass('hidden');
+    }
+});
+
+
+
+
+
+
