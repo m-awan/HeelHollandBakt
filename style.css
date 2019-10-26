@@ -130,8 +130,7 @@ a:hover {
 ***** Reclame banner *****
 ***********************/
 
-#advertentie,
-#advertentie-2 {
+#advertentie{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/banner-cake.jpg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -152,6 +151,14 @@ a:hover {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+
+     padding: 50px 0px 50px 0px;
+
+    width: 100vw;
+    height: 70vh;
+
+    display: table-cell;
+    vertical-align: middle;
 }
 
 #advertentie h2,
