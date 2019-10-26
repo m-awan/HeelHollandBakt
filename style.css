@@ -130,7 +130,7 @@ a:hover {
 ***** Reclame banner *****
 ***********************/
 
-#advertentie{
+#advertentie-3{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/banner-cake.jpg');
     background-position: center center;
     background-repeat: no-repeat;
@@ -161,16 +161,7 @@ a:hover {
     vertical-align: middle;
 }
 
-#advertentie h2{
-     font-weight: lighter;
-    text-align: center;
-    font-size: 3rem;
-    line-height: 3.5rem;
-    text-transform: uppercase;
-    font-family: 'PT Serif', serif;
-    color: #fff;
-    text-shadow: 5px 5px #000000;
-}
+#advertentie-3 h2{}
 #advertentie-2 h2 {
     font-weight: lighter;
     text-align: center;
@@ -182,12 +173,12 @@ a:hover {
     text-shadow: 5px 5px #000000;
 }
 
-#advertentie span,
+#advertentie-3 span,
 #advertentie-2 span {
     font-weight: bold
 }
 
-#advertentie h3,
+#advertentie-3 h3,
 #advertentie-2 h3 {
     font-family: 'PT Serif', serif;
     font-weight: lighter;
@@ -205,7 +196,7 @@ a:hover {
     background-color: #F15924;
 }
 
-#advertentie article {
+#advertentie-3 article {
 
     margin-top: 30px;
     background-color: #B12025;
@@ -213,7 +204,7 @@ a:hover {
 
 }
 
-#advertentie p {
+#advertentie-3 p {
     color: #fff;
 
     padding: 15px;
