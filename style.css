@@ -60,7 +60,7 @@ button:hover {
     background-color: #f15924;
 }
 
-nav{
+nav {
     position: fixed;
     width: 100%;
     overflow-x: auto;
@@ -74,23 +74,35 @@ nav{
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
 
-  nav{background-color: #fff}
-  .navigation li a{color: #000}
+    nav {
+        background-color: #fff
+    }
+
+    .navigation li a {
+        color: #000
+    }
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
-  nav{background-color: transparent}
+    nav {
+        background-color: transparent
+    }
 
-  nav.scroll {
-    background-color: #fff;
-    transition: 0.3s all;
-  }
+    nav.scroll {
+        background-color: #fff;
+        transition: 0.3s all;
+    }
 
-.navigation li a{color: #fff}
- nav.scroll .navigation li a{color: #000}
+    .navigation li a {
+        color: #fff
+    }
+
+    nav.scroll .navigation li a {
+        color: #000
+    }
 
 
 }
@@ -111,37 +123,39 @@ a:hover {
 .banner {
     padding: 50px 0px 50px 0px;
     width: 100%;
-    
+
 }
 
 /***********************
 ***** Reclame banner *****
 ***********************/
 
-#advertentie, #advertentie-2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/banner-cake.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  padding: 50px 0px 50px 0px;
-    
-  width: 100vw;
-  height: 70vh;
+#advertentie,
+#advertentie-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/banner-cake.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px 0px 50px 0px;
 
-  display:table-cell; 
-  vertical-align:middle;   
+    width: 100vw;
+    height: 70vh;
+
+    display: table-cell;
+    vertical-align: middle;
 }
 
-#advertentie-2{
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/banner-cupcake.jpg');
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+#advertentie-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/banner-cupcake.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-#advertentie h2, #advertentie-2 h2 {
+#advertentie h2,
+#advertentie-2 h2 {
     font-weight: lighter;
     text-align: center;
     font-size: 3rem;
@@ -152,11 +166,13 @@ a:hover {
     text-shadow: 5px 5px #000000;
 }
 
-#advertentie span, #advertentie-2 span {
+#advertentie span,
+#advertentie-2 span {
     font-weight: bold
 }
 
-#advertentie h3, #advertentie-2 h3 {
+#advertentie h3,
+#advertentie-2 h3 {
     font-family: 'PT Serif', serif;
     font-weight: lighter;
     font-size: 2rem;
@@ -173,46 +189,56 @@ a:hover {
     background-color: #F15924;
 }
 
-#advertentie article{
+#advertentie article {
 
-  margin-top: 30px;
-   background-color: #B12025;
+    margin-top: 30px;
+    background-color: #B12025;
 
 
 }
 
-#advertentie p{
-   color: #fff;
+#advertentie p {
+    color: #fff;
 
-   padding: 15px;
+    padding: 15px;
 }
 
 
-.button-2{width: 55%; margin: 30px auto; background-color: 
-  #0752d8 }
-
-.button-2:hover{background-color: #f15924}
-
-#submit-vragenformulier{
-  background-color: 
-  #0752d8
+.button-2 {
+    width: 55%;
+    margin: 30px auto;
+    background-color:
+        #0752d8
 }
 
-#submit-vragenformulier:hover{background-color: #f15924}
+.button-2:hover {
+    background-color: #f15924
+}
+
+#submit-vragenformulier {
+    background-color:
+        #0752d8
+}
+
+#submit-vragenformulier:hover {
+    background-color: #f15924
+}
 
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
-#advertentie h2, #advertentie-2 h2{
-  font-size: 6rem;
-  line-height: 6.5rem;
-  text-align: left;
-}
+    #advertentie h2,
+    #advertentie-2 h2 {
+        font-size: 6rem;
+        line-height: 6.5rem;
+        text-align: left;
+    }
 
-#advertentie h3, #advertentie-2 h3{
-  font-size: 3rem;
-}
+    #advertentie h3,
+    #advertentie-2 h3 {
+        font-size: 3rem;
+    }
 
 }
 
@@ -220,14 +246,16 @@ a:hover {
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 
-#advertentie h2, #advertentie-2 h2{
-  font-size: 8rem;
-  line-height: 8.5rem;
-}
+    #advertentie h2,
+    #advertentie-2 h2 {
+        font-size: 8rem;
+        line-height: 8.5rem;
+    }
 
-#advertentie h3, #advertentie-2 h3{
-  font-size: 3rem;
-}
+    #advertentie h3,
+    #advertentie-2 h3 {
+        font-size: 3rem;
+    }
 
 }
 
@@ -256,7 +284,9 @@ a:hover {
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
 
-    aside{width: 100%;}
+    aside {
+        width: 100%;
+    }
 
 
 
@@ -303,11 +333,18 @@ a:hover {
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
-    aside{width: 33.333333%;}
-    section#allebaksels{width: 66.666666%}
- 
+    aside {
+        width: 33.333333%;
+    }
 
-    .sub-container-2 article{ flex: 0 0 100%;}
+    section#allebaksels {
+        width: 66.666666%
+    }
+
+
+    .sub-container-2 article {
+        flex: 0 0 100%;
+    }
 
     #burger {
         display: none
@@ -345,9 +382,11 @@ a:hover {
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 
-  
 
-    .sub-container-2 article{ flex: 0 0 50%;}
+
+    .sub-container-2 article {
+        flex: 0 0 50%;
+    }
 
     .flex-item-2 {
         flex: 0 0 50%;
@@ -367,12 +406,12 @@ a:hover {
 
 
 
-#baksels .flex-container:first-child{
-   flex: 0 0 33.333333%;
+#baksels .flex-container:first-child {
+    flex: 0 0 33.333333%;
 }
 
-#baksels .flex-container:last-child{
-   flex: 0 0 66.666666%;
+#baksels .flex-container:last-child {
+    flex: 0 0 66.666666%;
 }
 
 
@@ -451,6 +490,7 @@ a:hover {
         display: block;
         width: auto;
     }
+
     .logo {
         order: 0;
     }
@@ -482,21 +522,32 @@ header {
     color: #fff;
 }
 
-.header-2{min-height: 40vh}
-.header-2 h1{display: block; margin: auto; font-size: 4rem}
+.header-2 {
+    min-height: 40vh
+}
 
-.hidden{display: none;}
+.header-2 h1 {
+    display: block;
+    margin: auto;
+    font-size: 4rem
+}
+
+.hidden {
+    display: none;
+}
 
 
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
 
-header .flex-item-2:last-child{
-   display: none;
-  }
+    header .flex-item-2:last-child {
+        display: none;
+    }
 
-header button{width: 100%}
+    header button {
+        width: 100%
+    }
 
 
 }
@@ -504,15 +555,17 @@ header button{width: 100%}
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
-  header .flex-item-2{
-    flex-grow: 1;
-  }
+    header .flex-item-2 {
+        flex-grow: 1;
+    }
 
-  header .flex-item-2:last-child{
-   display: none;
-  }
+    header .flex-item-2:last-child {
+        display: none;
+    }
 
-  header button{width: 55%}
+    header button {
+        width: 55%
+    }
 
 }
 
@@ -520,36 +573,51 @@ header button{width: 100%}
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 
-header .flex-item-2:last-child{
-   display: block;
-  }
+    header .flex-item-2:last-child {
+        display: block;
+    }
 
 }
 
 
-header .flex-container-fluid{
-  margin: 0vw 5vw 0vw 5vw
+header .flex-container-fluid {
+    margin: 0vw 5vw 0vw 5vw
 }
 
-header h1{font-size: 2.5rem}
-header h2{font-family: "Helvetica Neue"; line-height: normal; font-size: 1.5rem; text-align: left; font-weight: normal;}
+header h1 {
+    font-size: 2.5rem
+}
 
-header p{padding-top: 50px; font-size: 1.2rem; line-height: 1.8rem}
+header h2 {
+    font-family: "Helvetica Neue";
+    line-height: normal;
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: normal;
+}
+
+header p {
+    padding-top: 50px;
+    font-size: 1.2rem;
+    line-height: 1.8rem
+}
 
 .video-container {
-  position:relative;
-  padding-bottom:56.25%;
-  padding-top:30px;
-  height:0;
-  overflow:hidden;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
 }
 
-.video-container iframe, .video-container object, .video-container embed {
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -561,50 +629,63 @@ header p{padding-top: 50px; font-size: 1.2rem; line-height: 1.8rem}
 
 
 /* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-
-}
+@media only screen and (min-width : 320px) {}
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width : 768px) {}
 
+
+.container {
+    background-color: #0752d8;
+
+
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+    text-align: center;
+    margin-top: -15vh;
+
+    position: absolute;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
 }
 
 
-.container{
-  background-color: #0752d8;
 
 
-  width: 80vw;
-  height: 30vh;
-  display: flex;
-  text-align: center;
-  margin-top: -15vh;
 
-  position:absolute;
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
+
+
+
+
+
+.container span {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 15px;
 }
 
+.container h1 {
+    font-size: 3.2rem;
+    line-height: 4.2rem
+}
 
+.container h2 {
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+    font-family: normal;
+    font-weight: normal;
+    color: #f1f1f1
+}
 
-
-
-
-
-
-
-
-.container span{display:table-cell; vertical-align:middle; padding: 15px;}
-
-.container h1{font-size: 3.2rem; line-height: 4.2rem}
-
-.container h2{font-size: 2.2rem; line-height: 3.2rem; font-family: normal; font-weight: normal; color: #f1f1f1} 
-
-.container p{width: 50vw; margin: auto; color: #fff}
+.container p {
+    width: 50vw;
+    margin: auto;
+    color: #fff
+}
 
 
 
@@ -616,14 +697,18 @@ header p{padding-top: 50px; font-size: 1.2rem; line-height: 1.8rem}
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
 
-  footer .flex-container{flex-direction: column;}
+    footer .flex-container {
+        flex-direction: column;
+    }
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
 
-   footer .flex-container{flex-direction: row;}
+    footer .flex-container {
+        flex-direction: row;
+    }
 
 }
 
@@ -688,23 +773,25 @@ footer a:hover {
 @media only screen and (min-width : 992px) {
 
 
-.baksel:hover{
-  background-color: #0752D8;
-  color: #fff
-}
+    .baksel:hover {
+        background-color: #0752D8;
+        color: #fff
+    }
 
-.baksel:hover img{
-  background-blend-mode: darken;
-}
-
-
-.baksel:hover > *{color: #fff}
+    .baksel:hover img {
+        background-blend-mode: darken;
+    }
 
 
+    .baksel:hover > * {
+        color: #fff
+    }
 
-  .baksel button{
-    display: none;
-  }
+
+
+    .baksel button {
+        display: none;
+    }
 
 }
 
@@ -712,8 +799,8 @@ footer a:hover {
 .baksel {
     background-color: #fff;
     background-clip: content-box;
- 
-       -webkit-transition-duration: 0.4s;
+
+    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
 
@@ -729,19 +816,20 @@ footer a:hover {
     text-align: left;
 }
 
-.baksel h4{  
-  color: grey;
-  font-weight: normal;
-  line-height: 0;
+.baksel h4 {
+    color: grey;
+    font-weight: normal;
+    line-height: 0;
 }
 
 .baksel span {
     color: grey;
     line-height: 0
 }
-.baksel button{  
+
+.baksel button {
     border: solid 15px #fff;
-  }
+}
 
 .baksel p {
     padding: 30px 15px 30px 15px;
@@ -766,17 +854,24 @@ body .flex-item-3 {
 
 
 
-#contact{padding: 50px 0px 50px 0px;}
-#contact h2{
-  color: #000;
-  font-size: 5.5rem;
-font-family: "Helvetica Neue";
-text-align: left; 
-line-height: 6rem; 
+#contact {
+    padding: 50px 0px 50px 0px;
+}
 
-font-weight: 300;}
+#contact h2 {
+    color: #000;
+    font-size: 5.5rem;
+    font-family: "Helvetica Neue";
+    text-align: left;
+    line-height: 6rem;
 
-#contact h2 span{color: #f15924; font-weight: bold;}
+    font-weight: 300;
+}
+
+#contact h2 span {
+    color: #f15924;
+    font-weight: bold;
+}
 
 
 
@@ -813,42 +908,55 @@ input[type=submit]:hover {
 }
 
 
-input[type=checkbox]
-{
-  /* Double-sized Checkboxes */
-  -ms-transform: scale(1.5); /* IE */
-  -moz-transform: scale(1.5); /* FF */
-  -webkit-transform: scale(1.5); /* Safari and Chrome */
-  -o-transform: scale(1.5); /* Opera */
-  transform: scale(1.5);
+input[type=checkbox] {
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(1.5);
+    /* IE */
+    -moz-transform: scale(1.5);
+    /* FF */
+    -webkit-transform: scale(1.5);
+    /* Safari and Chrome */
+    -o-transform: scale(1.5);
+    /* Opera */
+    transform: scale(1.5);
 }
 
 
-.sub-container-2{
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  align-self: flex-start;
+.sub-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-self: flex-start;
 }
 
-aside{font-size: 1.2rem; padding: 15px}
-
-aside ul{
-   padding: 10px 0px 0px 30px;
+aside {
+    font-size: 1.2rem;
+    padding: 15px
 }
 
-aside legend{
-  padding: 15px 0px 15px 0px;
+aside ul {
+    padding: 10px 0px 0px 30px;
 }
-aside ul li{
+
+aside legend {
+    padding: 15px 0px 15px 0px;
+}
+
+aside ul li {
     padding: 5px 0px 5px 0px;
 }
-aside label{font-weight: bold;  padding: 10px 0px 10px 0px; }
 
-aside ul li label{
+aside label {
+    font-weight: bold;
+    padding: 10px 0px 10px 0px;
+}
+
+aside ul li label {
     padding-left: 15px;
     font-weight: normal;
     color: #ff5e31
 }
 
-.hidden{display: none;}
+.hidden {
+    display: none;
+}
