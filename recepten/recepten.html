@@ -14,33 +14,25 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
-
-
 <!-- header tag -->
 <header class="header-2">
     <nav>
-        <ul class="menu" id="menu">
-            <li class="logo"><a href="#"><img src="../img/logo.png" class="logo"></a></li>
-            <li class="toggle" id="burger"><a href="#"><i class="fas fa-bars"></i></a></li>
+        <ul id="menu">
+            <li><a href="#"><img src="../img/logo.png" alt="logo Heel Holland Bakt"></a></li>
+            <li id="burger"><a href="#"><i class="fas fa-bars"></i></a></li>
 
-            <ul class="navigation" id="navigation">
+            <div id="navigation">
                 <li><a href="../index.html">Actueel</a></li>
                 <li><a href="#">Over HHB</a></li>
                 <li><a href="#">Recepten</a></li>
                 <li><a href="#">Workshops</a></li>
-            </ul>
+            </div>
         </ul>
     </nav>
 
-
-
     <!-- begin section header -->
-    <section id="header" class="flex-container-fluid">
-
-
+    <section id="header">
         <h1>Recepten</h1>
-
-
     </section>
     <!-- end section header -->
 
@@ -48,76 +40,61 @@
 <!-- end header tag -->
 
 
-
 <!-- begin body website -->
-
 <body>
 
     <!-- gewonnen baksels -->
-    <section id="gewonnen-baksels" class="flex-container">
-
-        <div class="banner">
-            <h2>Gewonnen Baksels</h2>
-            <h3>Baksels gewonnen tijdens de afgelopen seizoen.</h3>
-        </div>
-
-
+    <section id="gewonnen-baksels">
+        <h2>Gewonnen Baksels</h2>
+        <h3>Baksels gewonnen tijdens de afgelopen seizoen.</h3>
     </section>
     <!-- end gewonnen baksels -->
 
 
 
+<section>
+    <aside>
+        <form action="">
+            <legend>
+                <label>Soort Recept:</label>
 
-    <div class="flex-container">
-        <aside id="myBtnContainer">
+                <ul>
+                    <li><input type="checkbox" name="soortRecept" value="taart" id="taart" checked="checked"><label for="taart">Taart</label></li>
+                    <li><input type="checkbox" name="soortRecept" value="cake" id="cake" checked="checked"><label for="cake">Cake</label></li>
+                </ul>
+            </legend>
 
-            <form action="">
-                <legend>
-                    <label>Soort Recept:</label>
+            <legend>
+                <label>Moeilijksheidgraad:</label>
 
-                    <ul>
-                        <li><input type="checkbox" name="soortRecept" value="taart" id="taart" checked="checked"><label for="taart">Taart</label></li>
-                        <li><input type="checkbox" name="soortRecept" value="cake" id="cake" checked="checked"><label for="cake">Cake</label></li>
-                    </ul>
-                </legend>
+                <ul>
+                    <li><input type="checkbox" name="moeilijkheid" value="makkelijk" id="makkelijk"><label for="makkelijk">Makkelijk</label></li>
+                    <li><input type="checkbox" name="startingReserves" value="goed" id="goed"><label for="goed">Goed om te doen</label></li>
+                    <li><input type="checkbox" name="startingReserves" value="moeilijk" id="moeilijk"><label for="moeilijk">Moeilijk</label></li>
+                    <li><input type="checkbox" name="startingReserves" value="expert" id="expert"><label for="expert">Expert</label></li>
+                </ul>
+            </legend>
+        </form>
+    </aside>
 
-                <legend>
-                    <label>Moeilijksheidgraad:</label>
+    <section id="allebaksels">
+        <!-- begin recept -->
+        <article class="taart">
+            <img src="../img/recepten/zonnebloem-van-van-gogh.jpg" alt="Zonnebloem van van Gogh">
 
-                    <ul>
-                        <li><input type="checkbox" name="moeilijkheid" value="makkelijk" id="makkelijk"><label for="makkelijk">Makkelijk</label></li>
-                        <li><input type="checkbox" name="startingReserves" value="goed" id="goed"><label for="goed">Goed om te doen</label></li>
-                        <li><input type="checkbox" name="startingReserves" value="moeilijk" id="moeilijk"><label for="moeilijk">Moeilijk</label></li>
-                        <li><input type="checkbox" name="startingReserves" value="expert" id="expert"><label for="expert">Expert</label></li>
-                    </ul>
-                </legend>
-            </form>
+            <h3>Zonnebloem van van Gogh</h3>
+            <h4>Anna - Seizoen 2018</h4>
+                <p>
+                Deze zonnebloem-sterrennacht is niet alleen een prachtige taart, de heerlijke kokoslimoen en kardemomcake laten je echt versteld staan...
+                </p>
 
-        </aside>
-
-        <section id="allebaksels">
-
-            <div class="sub-container-2">
-
-
-
-                <!-- begin recept -->
-                <article class="flex-item-3 baksel taart">
-                    <img src="../img/recepten/zonnebloem-van-van-gogh.jpg" alt="Zonnebloem van van Gogh" class="img-responsive">
-
-                    <h3>Zonnebloem van van Gogh</h3>
-                    <h4>Anna - Seizoen 2018</h4>
-                    <p>
-                        Deze zonnebloem-sterrennacht is niet alleen een prachtige taart, de heerlijke kokoslimoen en kardemomcake laten je echt versteld staan...
-                    </p>
-
-                    <button>Bekijk Recept</button>
-                </article>
-                <!-- eind recept -->
+                <button>Bekijk Recept</button>
+        </article>
+        <!-- eind recept -->
 
                 <!-- begin recept -->
-                <article class="flex-item-3 baksel taart">
-                    <img src="../img/recepten/absint.jpg" alt="Absint" class="img-responsive">
+                <article class="taart">
+                    <img src="../img/recepten/absint.jpg" alt="Absint">
 
                     <h3>Absint</h3>
                     <h4>Maroeska - Seizoen 2018</h4>
@@ -129,8 +106,8 @@
                 </article>
                 <!-- eind recept -->
 
-                <article class="flex-item-3 baksel cake">
-                    <img src="../img/recepten/paprika-hazelnoot-piramide.jpg" alt="Paprika-hazelnoot piramyde" class="img-responsive">
+                <article class="cake">
+                    <img src="../img/recepten/paprika-hazelnoot-piramide.jpg" alt="Paprika-hazelnoot piramyde">
 
                     <h3>Paprika-hazelnoot piramyde</h3>
                     <h4>Marco - Seizoen 2018</h4>
@@ -143,8 +120,8 @@
                 <!-- eind recept -->
 
                 <!-- begin recept -->
-                <article class="flex-item-3 baksel cake">
-                    <img src="../img/recepten/carmella.jpg" alt="Carmella" class="img-responsive">
+                <article class="cake">
+                    <img src="../img/recepten/carmella.jpg" alt="Carmella">
 
                     <h3>Carmella</h3>
                     <h4>Cas - Seizoen 2018</h4>
@@ -157,8 +134,8 @@
                 <!-- eind recept -->
 
                 <!-- begin recept -->
-                <article class="flex-item-3 baksel cake">
-                    <img src="../img/recepten/gereedschap.jpg" alt="Gereedschap" class="img-responsive">
+                <article class="cake">
+                    <img src="../img/recepten/gereedschap.jpg" alt="Gereedschap">
 
                     <h3>Gereedschap</h3>
                     <h4>Maroeska - Seizoen 2018</h4>
@@ -171,8 +148,8 @@
                 <!-- eind recept -->
 
                 <!-- begin recept -->
-                <article class="flex-item-3 baksel taart">
-                    <img src="../img/recepten/turkse-notentaart.jpg" alt="Turkse notentaart" class="img-responsive">
+                <article class="taart">
+                    <img src="../img/recepten/turkse-notentaart.jpg" alt="Turkse notentaart">
 
                     <h3>Turkse notentaart</h3>
                     <h4>Anna - Seizoen 2018</h4>
@@ -184,21 +161,15 @@
                 </article>
                 <!-- eind recept -->
 
-                <button class="button-2">Meer</button>
-
-
-
-
-
-            </div>
+                <button>Meer</button>
 
         </section>
 
-    </div>
+</section>
+
 
     <!-- advertentie -->
     <section id="advertentie-3">
-        <div class="flex-container">
 
             <h2>Win een<br><span>trouwtaart</span></h2>
             <h3>Van de winnaar van Heel Holland Bakt!</h3>
@@ -206,27 +177,18 @@
             <article>
                 <p>Heb jij jouw trouwdag tot in de puntjes gepland maar mist er nog een trouwtaart? Bij Only for Men Geldermalsen maak je vanaf 1 maart kans op een trouwtaart gemaakt door niemand minder dan Hans Spitsbaard, winnaar van Heel Holland Bakt.
                 </p>
-
                 <p>
                     Hoe maak je kans? Het enige wat je hoeft te doen, is je gegevens achter laten in de winkel in Geldermalsen. Op 23 maart is Hans Spitsbaard van 13.00 tot 17.00 uur aanwezig in de winkel en zal hij de winnaar bekend maken. Ook zal hij deze middag voor iedereen klaarstaan om allerlei bakvragen te beantwoorden en tips te geven.
                 </p>
             </article>
 
-        </div>
     </section>
     <!-- end advertentie -->
 
-
-
-
-
-
-
-
     <!-- begin section contact -->
-    <section id="contact" class="flex-container">
+    <section id="contact">
 
-        <div class="flex-item-2">
+        <div>
             <h2>Vragen aan <span>MAX</span></h2>
 
             <p>
@@ -234,13 +196,16 @@
             </p>
         </div>
 
-        <div class="flex-item-2">
+        <div>
             <form action="/action_page.php">
                 <label for="voornaam">Voornaam</label>
-                <input type="text" id="voornaam" name="voornaam" placeholder="Voornaam">
+                <input type="text" id="voornaam" name="voornaam" placeholder="Voornaam" required>
 
                 <label for="achternaam">Achternaam</label>
-                <input type="text" id="achternaam" name="achternaam" placeholder="Achternaam">
+                <input type="text" id="achternaam" name="achternaam" placeholder="Achternaam" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" name="email" required pattern="^\S+@\S+\.\S+$" placeholder="voorbeeld@email.com">
 
                 <label for="country">Uitzending</label>
                 <select id="country" name="country">
@@ -250,10 +215,11 @@
                 </select>
 
                 <label for="onderwerp">Onderwerp</label>
-                <textarea id="onderwerp" name="onderwerp" placeholder="Onderwerp" style="height:200px"></textarea>
+                <textarea id="onderwerp" name="onderwerp" placeholder="Onderwerp" style="height:200px" required></textarea>
 
                 <input type="submit" value="Versturen" id="submit-vragenformulier">
             </form>
+
         </div>
 
     </section>
@@ -264,43 +230,34 @@
 
 <footer id="footer">
 
-    <div class="flex-container">
-
-        <div class="flex-item-3">
-            <img src="../img/logo_footer.png" class="img-responsive logo-footer">
-        </div>
-
-        <div class="flex-item-3">
-            <h4>Overzicht</h4>
-            <ul>
-                <li><a href="#">Algemene voorwaarden</a></li>
-                <li><a href="#">Privacyverklaring</a></li>
-                <li><a href="#">Cookies</a></li>
-                <li><a href="#">Sitemap</a></li>
-                <li><a href="#">Spelregels Vraagbaak</a></li>
-            </ul>
-        </div>
-
-        <div class="flex-item-3">
-            <h4>Services</h4>
-            <ul>
-                <li><a href="#">Over Omroep MAX</a></li>
-                <li><a href="#">Inloggen Mijn MAX</a></li>
-                <li><a href="#">Max Magazine</a></li>
-                <li><a href="#">Pers</a></li>
-            </ul>
-        </div>
-
+    <div>
+        <img src="../img/logo_footer.png" alt="logo Holland Bakt">
     </div>
 
-    <div class="copyright flex-container-fluid">
-        <div class="flex-item-2">
-            <p>&copy; Heel Holland Bakt - 2019</p>
-        </div>
+    <div>
+        <h4>Overzicht</h4>
+        <ul>
+            <li><a href="#">Algemene voorwaarden</a></li>
+            <li><a href="#">Privacyverklaring</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">Spelregels Vraagbaak</a></li>
+        </ul>
+    </div>
 
-        <div class="flex-item-2">
-            <p>Webdesign: Azam Awan</p>
-        </div>
+    <div>
+        <h4>Services</h4>
+        <ul>
+            <li><a href="#">Over Omroep MAX</a></li>
+            <li><a href="#">Inloggen Mijn MAX</a></li>
+            <li><a href="#">Max Magazine</a></li>
+            <li><a href="#">Pers</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <p>&copy; Heel Holland Bakt - 2019</p>    
+        <p>Webdesign: Azam Awan</p>
     </div>
 
 </footer>
